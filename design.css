@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+  padding: 60px;
+}
+
+.active{
+  margin-left: 50px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background: #3b709d;
+}
+
+.rectangle{
+    height: 200px;
+    width: 400px;
+    background:#301b8973;
+  }
+
+
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-bottom:200px solid #ab90ff;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  }
+
+.triangledown{
+    width: 0;
+    height: 0;
+    border-top:200px solid #ab90ff;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.oval{
+    width: 200px;
+    height: 100px;
+    border-radius: 100px/50px;
+    background: #ff1212;
+    margin-top: 60px
+}
+
+
+.cirle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #d7bbbb;
+}
+
+.trapezium{
+    height: 0;
+    border-bottom: 200px solid indigo;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+  .RightTringle{
+   width: 0;
+   height: 0;
+   border-bottom: 200px solid rosybrown;
+   border-right: 100px solid transparent;
+ }
+
+ .LeftTringle{
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid black;
+    border-left: 100px solid transparent;
+  }
+
+  .Bflag{
+      background: green;
+      height: 250px;
+      width: 500px;
+      position: relative;
+  }
+
+  .flagserqule{
+     height: 150px;
+      width: 150px;
+      background: red;
+      border-radius: 50%;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+  }
